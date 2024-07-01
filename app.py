@@ -7,12 +7,12 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn import linear_model
 import matplotlib.pyplot as plt
 
-siteHeader = st.beta_container()
-videoExplanation = st.beta_container()
-dataSource = st.beta_container()
-dataExploration = st.beta_container()
-modelTraining = st.beta_container() # using Random Forest Model
-linreg = st.beta_container() # Using linear regression model
+siteHeader = st.container()
+videoExplanation = st.container()
+dataSource = st.container()
+dataExploration = st.container()
+modelTraining = st.container() # using Random Forest Model
+linreg = st.container() # Using linear regression model
 
 # Site header
 with siteHeader:
