@@ -81,7 +81,7 @@ with modelTraining:
     new_diamonds_data = pd.get_dummies(new_diamonds_data, columns=['cut', 'color','clarity'])
 
     # Make Two Columns
-    selection_col, display_col = st.beta_columns(2)
+    selection_col, display_col = st.columns(2)
 
     # Let's List the features that the user can input to the model
     selection_col.text('Here is a list of features: ')
