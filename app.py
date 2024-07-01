@@ -61,9 +61,9 @@ with dataExploration:
     st.pyplot(fig1)
 
     #st.title('Correlation between features')
-    #fig = plt.figure()
+    fig = plt.figure()
     #ax = sns.heatmap(diamonds_data.corr())
-    #st.pyplot(fig)
+    st.pyplot(fig)
     
 
     st.title("Conclusion!")
