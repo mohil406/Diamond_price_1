@@ -64,8 +64,6 @@ with dataExploration:
     fig = plt.figure()
     #ax = sns.heatmap(diamonds_data.corr())
     st.pyplot(fig)
-    
-
     st.title("Conclusion!")
     st.write('carat has a linear relation with price so it can be a good input for our linear regression model, has a low p value and a high corelation and can be used as input feature for our model')
 # Model Building
